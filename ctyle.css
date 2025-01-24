@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background: #2B3844;
+    color: white;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+body {
+    
+    background: #202C36;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px
+    ;
+}
+
+.cards {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 152px;
+}
+.input {
+    width: 480px;
+    height: 56px;
+    background: #2B3844;
+    color: white;
+    margin: 50px;
+    
+}
+ 
+.card {
+    width: 200px;
+    height: 200px;
+    background: #2B3844;
+
+}
+
+@media(max-width:9972px) {
+    .cards {
+        width: 95%;
+        display: flex;
+        gap: 70px;
+    }
+
+    .card {
+        width: 264px;
+        height: 250px;
+    }
+}
+@media(max-width:1542px) {
+    .cards {
+        width: 95%;
+        display: flex;
+        gap: 70px;
+    }
+
+    .card {
+        width: 264px;
+        height: 250px;
+    }
+}
+@media (max-width:1331px){
+    .cards {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        gap: 240px;
+        padding: 0 40px;
+    }
+    
+    .card {
+        width: 264px;
+        height: 250px;
+    }
+
+}
+
+@media (max-width:808px){
+    .cards {
+display: flex;
+justify-content: center;
+    }
+}
+
+
+@media (max-width:630px) {
+    .cards {
+    }
+    
+    .card {
+        background: #2B3844;
+    }
+    .card img {
+        width: 100%;
+        width: 284px;
+
+    }
+}
+
+.card img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.card h4 {
+    color: white;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    transform: translateY(10px);
+}
